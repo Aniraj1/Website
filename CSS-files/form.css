@@ -306,7 +306,12 @@ small{
 /* responsive form */
 
 @media (max-width: 850px) {
-
+    
+    .container1{
+	width: 90%;
+        left: 5%;
+    }
+	
     .form{
       grid-template-columns: 1fr;
     }
